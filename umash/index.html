@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PANU</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PANU</h1>
+            <p class="subtitle">Click on any thumbnail to watch the IPL</p>
+        </header>
+        
+        <div class="video-gallery">
+            <!-- Video Card 1 -->
+            <div class="video-card" onclick="redirectToVideo('https://www.pornhub.org/view_video.php?viewkey=67e1020fe5fe5', event)">
+                <h3 class="creator-name">Umash</h3>
+                <div class="thumbnail-container">
+                    <img src="umash.jpg" alt="Video 1" class="thumbnail">
+                    <div class="play-icon">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <span class="duration">4:20</span>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">CSK VS MI</h3>
+                    <p class="video-description">JIOHOTSTAR</p>
+                </div>
+            </div>
+            
+            <!-- Video Card 2 -->
+            <div class="video-card" onclick="redirectToVideo('https://www.pornhub.org/view_video.php?viewkey=662c0d3a32234', event)">
+                <h3 class="creator-name">Umash</h3>
+                <div class="thumbnail-container">
+                    <img src="umash.jpg" alt="Video 2" class="thumbnail">
+                    <div class="play-icon">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <span class="duration">4:13</span>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">CSK VS KKR</h3>
+                    <p class="video-description">JIOHOTSTAR</p>
+                </div>
+            </div>
+            
+            <!-- Video Card 3 -->
+            <div class="video-card" onclick="redirectToVideo('https://www.pornhub.org/view_video.php?viewkey=ph6021f5a439c94', event)">
+                <h3 class="creator-name">Umash</h3>
+                <div class="thumbnail-container">
+                    <img src="umash.jpg" alt="Video 3" class="thumbnail">
+                    <div class="play-icon">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <span class="duration">3:47</span>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">CSK VS RCB</h3>
+                    <p class="video-description">JIOHOTSTAR</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <p>Created with <i class="fas fa-heart"></i> by <span>Arijit</span></p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="loader" id="loader">
+        <div class="spinner"></div>
+        <p>Loading video...</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
